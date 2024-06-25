@@ -1,0 +1,117 @@
+.container-1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.could{
+    height:200px;
+    width:400px
+}
+.mountain{
+    height:400px;width:800px
+}
+.container-1{
+    background-color:whitesmoke;
+}
+.font-1{
+    font-size: 48px;
+    font-family: "Playwrite US Trad", cursive;
+    text-decoration: underline;
+}
+.font-2{
+    font-size: 24px;
+    font-family: "Playwrite ES", cursive;
+}
+
+.upper{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.lingesh{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+}
+.photo-txt{
+    text-align: center;
+    color:lightgreen
+}
+.define{
+    text-align: center;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width:50%;
+
+}
+.font-3{
+    text-align: center;
+}
+.skills{
+    display:grid;
+    grid-template-columns: 300px 400px;
+    grid-template-rows: repeat(2,0.5fr);
+    margin-left:25%
+}
+.two{
+    color:lightgreen
+}
+.three{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+@media(max-width:1250px){
+    .mountain{
+        width:400px;height:200px;
+    }
+    .skills{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 2fr 2fr ;
+        margin: 0;
+    }
+    .one > *{
+        display:flex;
+        flex-direction: column;
+    }
+}
+.chakra{
+    display:grid;
+    margin-left: 25%;
+}
+.con3-font{
+    text-align: center;
+    font-size:40px;
+    color:lightgreen
+}
+.con3-font2{
+    text-align: center;
+    font-size:32px;
+    color:lightgreen
+}
+.con4-font{
+
+    width:40% ;
+    margin:40px auto 60px ;
+}
+.button{
+    text-transform: uppercase;
+    position: relative;
+    left:45%;
+    height: 50px;
+    width:150px;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+}
